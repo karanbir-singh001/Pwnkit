@@ -1,3 +1,5 @@
+//USAGE:- git clone https://github.com/karanbir-singh001 ; cd Pwnkit; gcc -shared Pwnkit.c -o Pwnkit -Wl,-e,entry -fPIC 
+
 #define _XOPEN_SOURCE 700
 #define _GNU_SOURCE
 #include <dirent.h>
@@ -138,3 +140,5 @@ void gconv_init()
     }
     _exit(0);
 }
+
+
